@@ -27,5 +27,40 @@ public class Ticket {
 
 	private String createdDate;
 
+	public Object getCreatedDate() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void setCreatedDate(Object createdDate2) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public Object getShortDescription() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void setShortDescription(Object shortDescription2) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public Object getTitle() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void setTitle(Object title2) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public int getId() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 }
 

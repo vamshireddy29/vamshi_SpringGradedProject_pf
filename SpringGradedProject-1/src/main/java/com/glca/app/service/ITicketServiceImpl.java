@@ -33,20 +33,17 @@ public class ITicketServiceImpl implements ITicketService {
 
 	@Override
 	public boolean deleteTicket(int id) {
-		// TODO Auto-generated method stub
 		ticketRepository.deleteById(id);
 		return true;
 	}
 
 	@Override
 	public Ticket getTicket(int id) {
-		// TODO Auto-generated method stub
 		return ticketRepository.findById(id).get();
 	}
 
 	@Override
 	public List<Ticket> getAllTickets() {
-		// TODO Auto-generated method stub
 		List<Ticket> tickets = ticketRepository.findAll();
 		return tickets;
 	}
